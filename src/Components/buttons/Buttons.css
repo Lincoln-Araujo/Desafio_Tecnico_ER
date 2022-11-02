@@ -1,0 +1,230 @@
+.cta-button {
+    display: flex;
+    align-items: center;
+    padding: 16px 80px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: #1E1818;
+    margin: 16px 16px;
+}
+
+.cta-button:hover {
+    background-color: #04DFED;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition:all 0.2s ease-out;
+    color: #fff;
+}
+
+.sec-button  {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    color:#D9D9D9;
+    padding: 8px 40px;
+    border-radius: 50px;
+    background-color: #6D6161;
+    cursor: pointer;
+    margin: 16px 16px;
+}
+
+.sec-button:hover {
+    background-color: #157F86;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition:all 0.2s ease-out;
+    color: #fff;
+}
+
+.cta-button:active, .sec-button:active {
+    background-color: #186469;
+    color: #D9D9D9;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.third-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    margin: 16px 16px;
+    padding: 8px 40px;
+    color:#D9D9D9;
+    border-radius: 50px;
+}
+
+.third-button:hover {
+    color:#fff;
+    background-color: #D9D9D9;
+    cursor: pointer;
+    transition:all 0.2s ease-out;
+}
+
+.third-button:active {
+    color:#D9D9D9;
+    background-color: #6D6161;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.btn-text {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-right: 8px;    
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.cta-btn-icon {
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+}
+
+.close-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    color: #1E1818;
+    cursor: pointer;
+}
+
+#close-btn-icon {
+    width: 32px;
+    height: 32px;
+}
+
+.close-button:hover {
+    color: #fff;
+    transition:all 0.2s ease-out;
+}
+
+.close-button:active {
+    color: #6D6161;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+.minimize-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #D9D9D9;
+}
+
+.minimize-button:hover {
+    color: #fff;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition:all 0.2s ease-out;
+}
+
+.minimize-button:active {
+    color: #6D6161;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+#minimize-btn-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.play-button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: #fff;
+}
+
+.play-button:hover {
+    color: #1E1818;
+    transition:all 0.2s ease-out;
+}
+
+.play-button:active {
+    color: #000;
+}
+
+#play-btn-icon {
+    width: 180px;
+    height: 180px;
+}
+
+.search-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 0px 35px 35px 0px;
+    color: #1E1E1E;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    color: #fff;
+    background-color: #03A9B3;
+    transition:all 0.2s ease-out;
+}
+
+.search-button:active {
+    color: #D9D9D9;
+    background-color: #186469;
+}
+
+#search-btn-icon {
+    transform: scaleX(-1);
+    width: 32px;
+    height: 32px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+    .btn-text{
+        font-size: 16px;
+    } 
+    
+    #play-btn-icon {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+
+    .cta-button, .sec-button, .third-button {
+        padding: 16px 40px;
+    }
+
+    .btn-text {
+        font-size: 16px;
+    }
+
+    .cta-btn-icon {
+        height: 22px;
+        width: 22px;
+    }
+
+    #play-btn-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+}
