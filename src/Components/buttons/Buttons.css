@@ -152,15 +152,16 @@
     background-color: transparent;
     cursor: pointer;
     color: #fff;
+    position: absolute;
 }
 
 .play-button:hover {
-    color: #1E1818;
+    color: #04DFED;
     transition:all 0.2s ease-out;
 }
 
 .play-button:active {
-    color: #000;
+    color: #186469;
 }
 
 #play-btn-icon {

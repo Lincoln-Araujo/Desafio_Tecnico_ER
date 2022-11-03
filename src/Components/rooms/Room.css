@@ -1,0 +1,73 @@
+.room {
+    display: flex;
+    flex-direction: column;
+    width: 324px;
+    opacity: 0.8;
+    margin: 40px 40px;
+}
+
+.room:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition:all 0.2s ease-out;
+    opacity: 1;
+}
+
+.room:active {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    transition:all 0.2s ease-out;
+    filter: contrast(-50)
+}
+
+.room-name {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.room-video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-cover {
+    width: 324px;
+    height: 200px;
+    background-color: #D9D9D9;
+    position: relative;
+}
+
+#play-icon {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    color: #1E1818;
+
+}
+
+.room-watchers {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: right;
+    color: #04DFED;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.number-watchers {
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 8px;
+}
+
+
+
+

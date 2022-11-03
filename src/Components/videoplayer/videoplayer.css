@@ -1,0 +1,32 @@
+.video-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-screen {
+    width: 1572px;
+    height: 863px;
+    background-color: #1E1818;
+    border-radius: 0px 0px 50px 50px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px) {
+
+    .video-screen {
+        width: 473px;
+        height: 253px;
+        border-radius: 0px 0px 0px 25px;
+    }
+
+}
+
+@media only screen and (max-width: 599px) {
+
+    .video-screen {
+        width: 321px;
+        height: 199px;
+        border-radius: 0px 0px 0px 0px;
+    }
+
+}

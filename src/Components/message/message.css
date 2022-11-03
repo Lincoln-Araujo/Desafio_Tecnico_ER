@@ -1,0 +1,22 @@
+.message-user {
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    margin: 16px 16px;
+}
+
+.message-text {
+    display: flex;
+    justify-content: left;
+    margin-right: 8px;
+}
+
+.user-picture {
+    width: 40px;
+    height: 40px;
+    background-color: #FFBC10;
+    border-radius: 100px;
+}

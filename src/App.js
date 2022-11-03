@@ -1,10 +1,10 @@
 import React from "react";
-import RoomsVideo from './Components/rooms/Roomsvideo'
+import VideoPlayer from './Components/videoplayer/VideoPlayer'
 
 export default () => {
   return (
     <div>
-      <RoomsVideo room="nome da sala" watchers="nº"></RoomsVideo>
+      <VideoPlayer></VideoPlayer>
     </div>
   );
 }
