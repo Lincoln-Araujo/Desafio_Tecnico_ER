@@ -1,10 +1,10 @@
 import React from "react";
-import VideoPlayer from './Components/videoplayer/VideoPlayer'
+import Header from './Components/header/Header';
 
 export default () => {
   return (
     <div>
-      <VideoPlayer></VideoPlayer>
+      <Header></Header>
     </div>
   );
 }
