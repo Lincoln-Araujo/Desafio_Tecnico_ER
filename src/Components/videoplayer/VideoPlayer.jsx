@@ -1,7 +1,7 @@
 import './videoplayer.css';
-import PlayButton from '../buttons/Playbutton'
+import PlayButton from '../buttons/PlayButton'
 
-const VideoPlayer = (props) => {
+const VideoPlayer = () => {
     return (
         <div className="video-player">
             <div className="video-screen"></div>

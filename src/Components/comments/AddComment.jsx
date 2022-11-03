@@ -1,6 +1,6 @@
 import './comments.css';
-import SecButton from '../buttons/Secbutton';
-import ThirdButton from '../buttons/Thirdbutton'
+import SecButton from '../buttons/SecButton';
+import ThirdButton from '../buttons/ThirdButton'
 
 const AddComment = (props) => {
     return (

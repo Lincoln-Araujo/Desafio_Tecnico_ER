@@ -1,5 +1,5 @@
 import './header.css';
-import CtaButton from '../buttons/Ctabutton';
+import CtaButton from '../buttons/CtaButton';
 
 const Header = (props) => {
     return (

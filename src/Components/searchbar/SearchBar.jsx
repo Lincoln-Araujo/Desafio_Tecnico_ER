@@ -1,5 +1,5 @@
 import './Search.css'
-import SearchButton from '../buttons/Searchbutton';
+import SearchButton from '../buttons/SearchButton';
 
 const SearchBar = (props) => {
     return (

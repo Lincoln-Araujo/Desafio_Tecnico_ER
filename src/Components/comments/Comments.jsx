@@ -1,5 +1,5 @@
 import './comments.css';
-import MinimizeButton from '../buttons/Minimizebutton';
+import MinimizeButton from '../buttons/MinimizeButton';
 import KeyRoom from '../keyroom/Keyroom';
 import Message from '../message/Message';
 

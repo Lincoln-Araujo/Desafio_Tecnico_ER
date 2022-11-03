@@ -1,7 +1,7 @@
 import './createRoom.css';
 import BlankForm from '../form/BlankForm';
-import SecButton from '../buttons/Secbutton';
-import ThirdButton from '../buttons/Thirdbutton';
+import SecButton from '../buttons/SecButton';
+import ThirdButton from '../buttons/ThirdButton';
 
 const CreateRoom = (props) => {
     return (

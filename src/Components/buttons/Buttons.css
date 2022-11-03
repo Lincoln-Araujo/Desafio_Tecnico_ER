@@ -91,6 +91,7 @@
 }
 
 .close-button {
+    
     display: flex;
     align-items: center;
     background-color: transparent;

@@ -3,7 +3,8 @@
     flex-direction: column;
     width: 324px;
     opacity: 0.8;
-    margin: 40px 40px;
+    margin-top: 40px;
+    margin-left: 40px;
 }
 
 .room:hover {
@@ -68,6 +69,13 @@
     margin-right: 8px;
 }
 
+@media only screen and (max-width: 599px) {
 
+    .room {
+        width: 300px;
+        margin: 16px auto;
+    }
+
+}
 
 

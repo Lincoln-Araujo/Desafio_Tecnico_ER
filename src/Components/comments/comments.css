@@ -3,13 +3,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1574px;
-    height: 142px;
+    width: 1572px;
+    height: 8rem;
+    position: absolute;
+    bottom: 0;
 }
 
 .comments-background {
     width: 100%;
-    height: 142px;
+    height: 15rem;
     background: linear-gradient(180deg, rgba(217, 217, 217, 0.01) 0%, rgba(24, 100, 105, 0.1) 100%);
     border-radius: 0px 0px 50px 50px;
 }
@@ -33,7 +35,7 @@
 #comment-input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
-    color: #1E1E1E;
+    color: #fff;
 }
 
 .comments-buttons {
@@ -44,11 +46,14 @@
 .comments-wall {
     display: flex;
     flex-direction: column;
+    position: absolute;
+    right: 2px;
+    top: 88px;
 }
 
 .comments-bg {
     width: 468px;
-    height: 721px;
+    height: 40rem;
     background: linear-gradient(180deg, #1E1818 0%, rgba(217, 217, 217, 0.01) 100%);
 }
 
@@ -84,8 +89,8 @@
 }
 
 .container-messages {
-    width: 467px;
-    height: 641px;
+    width: 100%;
+    height: 40rem;
     display: flex;
     flex-direction: column;
     justify-content: end;
