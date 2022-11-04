@@ -1,6 +1,8 @@
 # LINK DO PROJETO
 
-Link - [clique aqui](#)
+Link - [clique aqui](https://desafiotecnicoerural.herokuapp.com/)
+
+<a target="blank" href="https://desafiotecnicoerural.herokuapp.com/"><img src="./presentation.png" alt="image"/></a>
 
 # Indíce
 
