@@ -1,0 +1,15 @@
+.videos-page {
+    min-width: 100%;
+    max-width: auto;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-top: 32px;
+}
+
+.container-videos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
