@@ -5,6 +5,7 @@
     opacity: 0.8;
     margin-top: 40px;
     margin-left: 40px;
+    cursor: pointer;
 }
 
 .room:hover {
