@@ -2,7 +2,7 @@
 
 Link - [clique aqui](https://desafiotecnicoerural.herokuapp.com/)
 
-<a target="_blank" href="https://desafiotecnicoerural.herokuapp.com/"><img src="./presentation.png" alt="image"/></a>
+<a href="https://desafiotecnicoerural.herokuapp.com/" target="_blank"><img src="./presentation.PNG"></a>
 
 # Indíce
 
