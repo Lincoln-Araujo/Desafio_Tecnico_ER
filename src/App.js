@@ -8,7 +8,7 @@ import VideoRoomPage from './pages/VideoRoomPage/VideoRoomPage';
 function App() {
 
   const [addNewRoom, setAddNewRoom] = useState(false);
-  const [videoRoomPage, setVideoRoomPage] = useState(true);
+  const [videoRoomPage, setVideoRoomPage] = useState(false);
 
   function handleClickAddNewRoom () {
     if(addNewRoom === false) {
