@@ -3,15 +3,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1572px;
-    height: 8rem;
-    position: absolute;
-    bottom: 0;
+    width: 83%;
+    height: 3rem;
+    position: fixed;
+    bottom: 105px;
+    
 }
 
 .comments-background {
     width: 100%;
-    height: 15rem;
+    height: 10rem;
     background: linear-gradient(180deg, rgba(217, 217, 217, 0.01) 0%, rgba(24, 100, 105, 0.1) 100%);
     border-radius: 0px 0px 50px 50px;
 }
@@ -23,7 +24,7 @@
 }
 
 #comment-input {
-    width: 62.5rem;
+    width: 70rem;
     font-weight: 400;
     font-size: 24px;
     color: #D9D9D9;
@@ -52,7 +53,7 @@
 }
 
 .comments-bg {
-    width: 468px;
+    width: 469px;
     height: 40rem;
     background: linear-gradient(180deg, #1E1818 0%, rgba(217, 217, 217, 0.01) 100%);
 }
@@ -90,7 +91,7 @@
 
 .container-messages {
     width: 100%;
-    height: 40rem;
+    height: 35rem;
     display: flex;
     flex-direction: column;
     justify-content: end;

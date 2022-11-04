@@ -37,7 +37,7 @@
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
-    transition:all 0.2s ease-out;
+    transition:all 0.2s ease-in-out;
     color: #fff;
 }
 
@@ -61,7 +61,7 @@
 }
 
 .third-button:hover {
-    color:#fff;
+    color:#6D6161;
     background-color: #D9D9D9;
     cursor: pointer;
     transition:all 0.2s ease-out;

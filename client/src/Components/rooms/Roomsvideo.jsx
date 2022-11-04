@@ -1,4 +1,4 @@
-import './Room.css'
+import './Room.css';
 
 const RoomsVideo = (props) => {
     return (

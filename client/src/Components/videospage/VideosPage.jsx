@@ -6,7 +6,7 @@ const VideosPage = (props) => {
     return (
         <div className="videos-page">
            <SearchBar>BUSQUE POR UMA SALA</SearchBar>
-           <div className="container-videos">
+           <div className="container-videos" onClick={props.onClick}>
                 <RoomsVideo room="nome da sala" watchers="X"></RoomsVideo>
            </div>
         </div>         

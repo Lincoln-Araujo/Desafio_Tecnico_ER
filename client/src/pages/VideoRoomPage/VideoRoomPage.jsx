@@ -30,7 +30,7 @@ const VideoRoomPage = (props) => {
 
               </div> 
 
-              <CloseButton></CloseButton>  
+              <CloseButton onClick={props.onClick}></CloseButton>  
 
             </div>
 
