@@ -19,7 +19,7 @@ Desafio técnico onde crio um sistema de exibição de vídeo em salas virtuais
 Clone este repositório usando o comando pelo gitbash:
 
 ```bash
-git clone https://github.com/JCDMeira/studies-react-ts.git
+git clone https://github.com/Lincoln-Araujo/Desafio_Tecnico_ER.git
 ```
 
 Abra a pasta pela IDe de sua escolha (eu uso o VSCode) e instale as dependências pelo terminal com o seguinte comando :
