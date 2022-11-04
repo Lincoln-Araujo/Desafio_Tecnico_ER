@@ -28,7 +28,7 @@ Abra a pasta pela IDe de sua escolha (eu uso o VSCode) e instale as dependência
 npm install
 ```
 
-## Como fazer o debug no seu computador <a name="id03"></a>
+## :arrow_double_down: Como fazer o debug no seu computador <a name="id03"></a>
 
 Após instalar as dependências do projeto, utilize o seguinte comando no terminal para iniciar o servidor local:
 
@@ -38,7 +38,7 @@ npm start
 
 Uma nova janela ou aba deve abrir em seu navegador principal com o projeto react.
 
-## Tecnologias utilizadas <a name="id04"></a>
+## :pushpin: Tecnologias utilizadas <a name="id04"></a>
 
 * React.js 
 
@@ -59,6 +59,6 @@ Uma nova janela ou aba deve abrir em seu navegador principal com o projeto react
 
 Perfil do linkedin - [Lincoln Araujo](https://www.linkedin.com/in/lincolnaraujo/?locale=pt_BR)
 
-Whatsapp - [+5561991175531](https://whats.link/lincolnaraujo)
+Whatsapp - [+5561991175531](https://api.whatsapp.com/send?phone=5561991175531&text=Ol%C3%A1,%20acessei%20seu%20Link%20Personalizado%20What%27s%20Link)
 
 Email : lincoln.fa@hotmail.com
