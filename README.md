@@ -2,7 +2,7 @@
 
 Link - [clique aqui](https://desafiotecnicoerural.herokuapp.com/)
 
-<a target="blank" href="https://desafiotecnicoerural.herokuapp.com/"><img src="./presentation.png" alt="image"/></a>
+<a target="_blank" href="https://desafiotecnicoerural.herokuapp.com/"><img src="./presentation.png" alt="image"/></a>
 
 # Indíce
 
@@ -46,9 +46,9 @@ Uma nova janela ou aba deve abrir em seu navegador principal com o projeto react
 
 * Javascript
 
-* CSS 
+* CSS (faltam algumas configuraçoes de reponsividade ainda)
 
-* Node.js
+* Node.js (falta configurar o servidor com o banco de dados)
 
 * MongoDB
 
