@@ -2,18 +2,15 @@ const express = require('express');
 
 const app = express();
 
-const { resolve } = require('path');
+const port = 4000;
 
-app.use('/', 
-    express.static(
-        resolve(
-            __dirname,
-            './build'
-        )
-    )
-)
+const baseDir = `${__dirname}/build/`
 
-app.listen(process.env.PORT || 3000, (err) => {
+app.use(express.static(`${baseDir}`));
+
+app.get('*', (req,res) => res.sendFile('index.html' , { root : baseDir }));
+
+app.listen(port, (err) => {
     if (err) {return console.log(err)}
-    console.log('Tudo funcionando certinho');
+    console.log(`Tudo funcionando certinho no servidor http://localhost:${port}`);
 });
